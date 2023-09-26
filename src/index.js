@@ -4,7 +4,6 @@ const app = express()
 const port = 3000
 const cors = require('cors')
 const user = require('./routes/user.route')
-const product = require('./routes/product.route')
 const user_products = require('./routes/user-product.route')
 const swaggerUI = require('swagger-ui-express')
 const swaggerDocument = require('./swagger')
